@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDC52A4221EFCAD80087888F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC52A4121EFCAD80087888F /* AppDelegate.m */; };
+		EDC52A4521EFCAD80087888F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC52A4421EFCAD80087888F /* ViewController.m */; };
+		EDC52A4821EFCAD80087888F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC52A4621EFCAD80087888F /* Main.storyboard */; };
+		EDC52A4A21EFCAD90087888F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC52A4921EFCAD90087888F /* Assets.xcassets */; };
+		EDC52A4D21EFCAD90087888F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC52A4B21EFCAD90087888F /* LaunchScreen.storyboard */; };
+		EDC52A5021EFCAD90087888F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC52A4F21EFCAD90087888F /* main.m */; };
+		EDC52A5D21EFCBDA0087888F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC52A5C21EFCBDA0087888F /* AppDelegate.swift */; };
+		EDC52A5F21EFCBDA0087888F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC52A5E21EFCBDA0087888F /* ViewController.swift */; };
+		EDC52A6221EFCBDA0087888F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC52A6021EFCBDA0087888F /* Main.storyboard */; };
+		EDC52A6421EFCBDB0087888F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC52A6321EFCBDB0087888F /* Assets.xcassets */; };
+		EDC52A6721EFCBDB0087888F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC52A6521EFCBDB0087888F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDC52A3D21EFCAD80087888F /* HowToAnimate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowToAnimate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC52A4021EFCAD80087888F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDC52A4121EFCAD80087888F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDC52A4321EFCAD80087888F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDC52A4421EFCAD80087888F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDC52A4721EFCAD80087888F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDC52A4921EFCAD90087888F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDC52A4C21EFCAD90087888F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDC52A4E21EFCAD90087888F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC52A4F21EFCAD90087888F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDC52A5A21EFCBDA0087888F /* HowToAnimate-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HowToAnimate-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC52A5C21EFCBDA0087888F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDC52A5E21EFCBDA0087888F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDC52A6121EFCBDA0087888F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDC52A6321EFCBDB0087888F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDC52A6621EFCBDB0087888F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDC52A6821EFCBDB0087888F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDC52A3A21EFCAD80087888F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC52A5721EFCBDA0087888F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDC52A3421EFCAD80087888F = {
+			isa = PBXGroup;
+			children = (
+				EDC52A3F21EFCAD80087888F /* HowToAnimate */,
+				EDC52A5B21EFCBDA0087888F /* HowToAnimate-Swift */,
+				EDC52A3E21EFCAD80087888F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDC52A3E21EFCAD80087888F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDC52A3D21EFCAD80087888F /* HowToAnimate.app */,
+				EDC52A5A21EFCBDA0087888F /* HowToAnimate-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDC52A3F21EFCAD80087888F /* HowToAnimate */ = {
+			isa = PBXGroup;
+			children = (
+				EDC52A4021EFCAD80087888F /* AppDelegate.h */,
+				EDC52A4121EFCAD80087888F /* AppDelegate.m */,
+				EDC52A4321EFCAD80087888F /* ViewController.h */,
+				EDC52A4421EFCAD80087888F /* ViewController.m */,
+				EDC52A4621EFCAD80087888F /* Main.storyboard */,
+				EDC52A4921EFCAD90087888F /* Assets.xcassets */,
+				EDC52A4B21EFCAD90087888F /* LaunchScreen.storyboard */,
+				EDC52A4E21EFCAD90087888F /* Info.plist */,
+				EDC52A4F21EFCAD90087888F /* main.m */,
+			);
+			path = HowToAnimate;
+			sourceTree = "<group>";
+		};
+		EDC52A5B21EFCBDA0087888F /* HowToAnimate-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				EDC52A5C21EFCBDA0087888F /* AppDelegate.swift */,
+				EDC52A5E21EFCBDA0087888F /* ViewController.swift */,
+				EDC52A6021EFCBDA0087888F /* Main.storyboard */,
+				EDC52A6321EFCBDB0087888F /* Assets.xcassets */,
+				EDC52A6521EFCBDB0087888F /* LaunchScreen.storyboard */,
+				EDC52A6821EFCBDB0087888F /* Info.plist */,
+			);
+			path = "HowToAnimate-Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDC52A3C21EFCAD80087888F /* HowToAnimate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC52A5321EFCAD90087888F /* Build configuration list for PBXNativeTarget "HowToAnimate" */;
+			buildPhases = (
+				EDC52A3921EFCAD80087888F /* Sources */,
+				EDC52A3A21EFCAD80087888F /* Frameworks */,
+				EDC52A3B21EFCAD80087888F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HowToAnimate;
+			productName = HowToAnimate;
+			productReference = EDC52A3D21EFCAD80087888F /* HowToAnimate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDC52A5921EFCBDA0087888F /* HowToAnimate-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC52A6921EFCBDB0087888F /* Build configuration list for PBXNativeTarget "HowToAnimate-Swift" */;
+			buildPhases = (
+				EDC52A5621EFCBDA0087888F /* Sources */,
+				EDC52A5721EFCBDA0087888F /* Frameworks */,
+				EDC52A5821EFCBDA0087888F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HowToAnimate-Swift";
+			productName = "HowToAnimate-Swift";
+			productReference = EDC52A5A21EFCBDA0087888F /* HowToAnimate-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDC52A3521EFCAD80087888F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = None;
+				TargetAttributes = {
+					EDC52A3C21EFCAD80087888F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					EDC52A5921EFCBDA0087888F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = EDC52A3821EFCAD80087888F /* Build configuration list for PBXProject "HowToAnimate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDC52A3421EFCAD80087888F;
+			productRefGroup = EDC52A3E21EFCAD80087888F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDC52A3C21EFCAD80087888F /* HowToAnimate */,
+				EDC52A5921EFCBDA0087888F /* HowToAnimate-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDC52A3B21EFCAD80087888F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC52A4D21EFCAD90087888F /* LaunchScreen.storyboard in Resources */,
+				EDC52A4A21EFCAD90087888F /* Assets.xcassets in Resources */,
+				EDC52A4821EFCAD80087888F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC52A5821EFCBDA0087888F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC52A6721EFCBDB0087888F /* LaunchScreen.storyboard in Resources */,
+				EDC52A6421EFCBDB0087888F /* Assets.xcassets in Resources */,
+				EDC52A6221EFCBDA0087888F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDC52A3921EFCAD80087888F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC52A4521EFCAD80087888F /* ViewController.m in Sources */,
+				EDC52A5021EFCAD90087888F /* main.m in Sources */,
+				EDC52A4221EFCAD80087888F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC52A5621EFCBDA0087888F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC52A5F21EFCBDA0087888F /* ViewController.swift in Sources */,
+				EDC52A5D21EFCBDA0087888F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDC52A4621EFCAD80087888F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC52A4721EFCAD80087888F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDC52A4B21EFCAD90087888F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC52A4C21EFCAD90087888F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EDC52A6021EFCBDA0087888F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC52A6121EFCBDA0087888F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDC52A6521EFCBDB0087888F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC52A6621EFCBDB0087888F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDC52A5121EFCAD90087888F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDC52A5221EFCAD90087888F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDC52A5421EFCAD90087888F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowToAnimate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = None.HowToAnimate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDC52A5521EFCAD90087888F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowToAnimate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = None.HowToAnimate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDC52A6A21EFCBDB0087888F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HowToAnimate-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "None.HowToAnimate-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDC52A6B21EFCBDB0087888F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HowToAnimate-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "None.HowToAnimate-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDC52A3821EFCAD80087888F /* Build configuration list for PBXProject "HowToAnimate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC52A5121EFCAD90087888F /* Debug */,
+				EDC52A5221EFCAD90087888F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC52A5321EFCAD90087888F /* Build configuration list for PBXNativeTarget "HowToAnimate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC52A5421EFCAD90087888F /* Debug */,
+				EDC52A5521EFCAD90087888F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC52A6921EFCBDB0087888F /* Build configuration list for PBXNativeTarget "HowToAnimate-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC52A6A21EFCBDB0087888F /* Debug */,
+				EDC52A6B21EFCBDB0087888F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDC52A3521EFCAD80087888F /* Project object */;
+}
