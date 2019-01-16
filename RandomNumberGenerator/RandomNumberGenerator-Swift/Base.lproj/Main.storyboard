@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KFi-Ac-v92">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Swift View Controller-->
+        <scene sceneID="dbC-Nk-CzL">
+            <objects>
+                <viewController id="KFi-Ac-v92" customClass="SwiftViewController" customModule="RandomNumberGenerator_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oXn-Yl-QJi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XEl-35-Z5f">
+                                <rect key="frame" x="20" y="323.5" width="335" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Generate Random Number"/>
+                                <connections>
+                                    <action selector="generateRandomNumber:" destination="KFi-Ac-v92" eventType="touchUpInside" id="NZe-Li-7rY"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAl-yV-SLy">
+                                <rect key="frame" x="20" y="303.5" width="335" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XEl-35-Z5f" firstAttribute="centerY" secondItem="362-Qg-jin" secondAttribute="centerY" id="0ii-MK-dAI"/>
+                            <constraint firstItem="XEl-35-Z5f" firstAttribute="leading" secondItem="362-Qg-jin" secondAttribute="leading" constant="20" id="aom-42-maP"/>
+                            <constraint firstItem="fAl-yV-SLy" firstAttribute="centerX" secondItem="362-Qg-jin" secondAttribute="centerX" id="btM-yG-zpn"/>
+                            <constraint firstItem="fAl-yV-SLy" firstAttribute="width" secondItem="XEl-35-Z5f" secondAttribute="width" id="evb-Yg-CMr"/>
+                            <constraint firstItem="362-Qg-jin" firstAttribute="trailing" secondItem="XEl-35-Z5f" secondAttribute="trailing" constant="20" id="odY-Hb-4eR"/>
+                            <constraint firstItem="XEl-35-Z5f" firstAttribute="top" secondItem="fAl-yV-SLy" secondAttribute="bottom" constant="20" id="vtN-eo-ugO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="362-Qg-jin"/>
+                    </view>
+                    <connections>
+                        <outlet property="resultLabel" destination="fAl-yV-SLy" id="xl7-o9-mkX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0io-lo-Xk3" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
