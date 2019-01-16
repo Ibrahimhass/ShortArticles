@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDC52A0A21EFC3110087888F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC52A0921EFC3110087888F /* AppDelegate.m */; };
+		EDC52A0D21EFC3110087888F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC52A0C21EFC3110087888F /* ViewController.m */; };
+		EDC52A1021EFC3110087888F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC52A0E21EFC3110087888F /* Main.storyboard */; };
+		EDC52A1221EFC3130087888F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC52A1121EFC3130087888F /* Assets.xcassets */; };
+		EDC52A1521EFC3130087888F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC52A1321EFC3130087888F /* LaunchScreen.storyboard */; };
+		EDC52A1821EFC3130087888F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC52A1721EFC3130087888F /* main.m */; };
+		EDC52A2521EFC89F0087888F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC52A2421EFC89F0087888F /* AppDelegate.swift */; };
+		EDC52A2721EFC89F0087888F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC52A2621EFC89F0087888F /* ViewController.swift */; };
+		EDC52A2A21EFC89F0087888F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC52A2821EFC89F0087888F /* Main.storyboard */; };
+		EDC52A2C21EFC8A00087888F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC52A2B21EFC8A00087888F /* Assets.xcassets */; };
+		EDC52A2F21EFC8A00087888F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC52A2D21EFC8A00087888F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDC52A0521EFC3110087888F /* HowToFixDuplicateCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowToFixDuplicateCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC52A0821EFC3110087888F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDC52A0921EFC3110087888F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDC52A0B21EFC3110087888F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDC52A0C21EFC3110087888F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDC52A0F21EFC3110087888F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDC52A1121EFC3130087888F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDC52A1421EFC3130087888F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDC52A1621EFC3130087888F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC52A1721EFC3130087888F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDC52A2221EFC89F0087888F /* HowToFixDuplicateCells-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HowToFixDuplicateCells-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC52A2421EFC89F0087888F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDC52A2621EFC89F0087888F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDC52A2921EFC89F0087888F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDC52A2B21EFC8A00087888F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDC52A2E21EFC8A00087888F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDC52A3021EFC8A00087888F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDC52A0221EFC3110087888F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC52A1F21EFC89F0087888F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDC529FC21EFC3110087888F = {
+			isa = PBXGroup;
+			children = (
+				EDC52A0721EFC3110087888F /* HowToFixDuplicateCells */,
+				EDC52A2321EFC89F0087888F /* HowToFixDuplicateCells-Swift */,
+				EDC52A0621EFC3110087888F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDC52A0621EFC3110087888F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDC52A0521EFC3110087888F /* HowToFixDuplicateCells.app */,
+				EDC52A2221EFC89F0087888F /* HowToFixDuplicateCells-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDC52A0721EFC3110087888F /* HowToFixDuplicateCells */ = {
+			isa = PBXGroup;
+			children = (
+				EDC52A0821EFC3110087888F /* AppDelegate.h */,
+				EDC52A0921EFC3110087888F /* AppDelegate.m */,
+				EDC52A0B21EFC3110087888F /* ViewController.h */,
+				EDC52A0C21EFC3110087888F /* ViewController.m */,
+				EDC52A0E21EFC3110087888F /* Main.storyboard */,
+				EDC52A1121EFC3130087888F /* Assets.xcassets */,
+				EDC52A1321EFC3130087888F /* LaunchScreen.storyboard */,
+				EDC52A1621EFC3130087888F /* Info.plist */,
+				EDC52A1721EFC3130087888F /* main.m */,
+			);
+			path = HowToFixDuplicateCells;
+			sourceTree = "<group>";
+		};
+		EDC52A2321EFC89F0087888F /* HowToFixDuplicateCells-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				EDC52A2421EFC89F0087888F /* AppDelegate.swift */,
+				EDC52A2621EFC89F0087888F /* ViewController.swift */,
+				EDC52A2821EFC89F0087888F /* Main.storyboard */,
+				EDC52A2B21EFC8A00087888F /* Assets.xcassets */,
+				EDC52A2D21EFC8A00087888F /* LaunchScreen.storyboard */,
+				EDC52A3021EFC8A00087888F /* Info.plist */,
+			);
+			path = "HowToFixDuplicateCells-Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDC52A0421EFC3110087888F /* HowToFixDuplicateCells */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC52A1B21EFC3130087888F /* Build configuration list for PBXNativeTarget "HowToFixDuplicateCells" */;
+			buildPhases = (
+				EDC52A0121EFC3110087888F /* Sources */,
+				EDC52A0221EFC3110087888F /* Frameworks */,
+				EDC52A0321EFC3110087888F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HowToFixDuplicateCells;
+			productName = HowToFixDuplicateCells;
+			productReference = EDC52A0521EFC3110087888F /* HowToFixDuplicateCells.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDC52A2121EFC89F0087888F /* HowToFixDuplicateCells-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC52A3121EFC8A00087888F /* Build configuration list for PBXNativeTarget "HowToFixDuplicateCells-Swift" */;
+			buildPhases = (
+				EDC52A1E21EFC89F0087888F /* Sources */,
+				EDC52A1F21EFC89F0087888F /* Frameworks */,
+				EDC52A2021EFC89F0087888F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HowToFixDuplicateCells-Swift";
+			productName = "HowToFixDuplicateCells-Swift";
+			productReference = EDC52A2221EFC89F0087888F /* HowToFixDuplicateCells-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDC529FD21EFC3110087888F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = None;
+				TargetAttributes = {
+					EDC52A0421EFC3110087888F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					EDC52A2121EFC89F0087888F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = EDC52A0021EFC3110087888F /* Build configuration list for PBXProject "HowToFixDuplicateCells" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDC529FC21EFC3110087888F;
+			productRefGroup = EDC52A0621EFC3110087888F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDC52A0421EFC3110087888F /* HowToFixDuplicateCells */,
+				EDC52A2121EFC89F0087888F /* HowToFixDuplicateCells-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDC52A0321EFC3110087888F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC52A1521EFC3130087888F /* LaunchScreen.storyboard in Resources */,
+				EDC52A1221EFC3130087888F /* Assets.xcassets in Resources */,
+				EDC52A1021EFC3110087888F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC52A2021EFC89F0087888F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC52A2F21EFC8A00087888F /* LaunchScreen.storyboard in Resources */,
+				EDC52A2C21EFC8A00087888F /* Assets.xcassets in Resources */,
+				EDC52A2A21EFC89F0087888F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDC52A0121EFC3110087888F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC52A0D21EFC3110087888F /* ViewController.m in Sources */,
+				EDC52A1821EFC3130087888F /* main.m in Sources */,
+				EDC52A0A21EFC3110087888F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC52A1E21EFC89F0087888F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC52A2721EFC89F0087888F /* ViewController.swift in Sources */,
+				EDC52A2521EFC89F0087888F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDC52A0E21EFC3110087888F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC52A0F21EFC3110087888F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDC52A1321EFC3130087888F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC52A1421EFC3130087888F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EDC52A2821EFC89F0087888F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC52A2921EFC89F0087888F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDC52A2D21EFC8A00087888F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC52A2E21EFC8A00087888F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDC52A1921EFC3130087888F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDC52A1A21EFC3130087888F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDC52A1C21EFC3130087888F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowToFixDuplicateCells/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = None.HowToFixDuplicateCells;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDC52A1D21EFC3130087888F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowToFixDuplicateCells/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = None.HowToFixDuplicateCells;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDC52A3221EFC8A00087888F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HowToFixDuplicateCells-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "None.HowToFixDuplicateCells-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDC52A3321EFC8A00087888F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HowToFixDuplicateCells-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "None.HowToFixDuplicateCells-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDC52A0021EFC3110087888F /* Build configuration list for PBXProject "HowToFixDuplicateCells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC52A1921EFC3130087888F /* Debug */,
+				EDC52A1A21EFC3130087888F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC52A1B21EFC3130087888F /* Build configuration list for PBXNativeTarget "HowToFixDuplicateCells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC52A1C21EFC3130087888F /* Debug */,
+				EDC52A1D21EFC3130087888F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC52A3121EFC8A00087888F /* Build configuration list for PBXNativeTarget "HowToFixDuplicateCells-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC52A3221EFC8A00087888F /* Debug */,
+				EDC52A3321EFC8A00087888F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDC529FD21EFC3110087888F /* Project object */;
+}
