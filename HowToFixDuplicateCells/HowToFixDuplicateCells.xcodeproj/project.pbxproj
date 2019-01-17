@@ -18,6 +18,8 @@
 		EDC52A2A21EFC89F0087888F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC52A2821EFC89F0087888F /* Main.storyboard */; };
 		EDC52A2C21EFC8A00087888F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC52A2B21EFC8A00087888F /* Assets.xcassets */; };
 		EDC52A2F21EFC8A00087888F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC52A2D21EFC8A00087888F /* LaunchScreen.storyboard */; };
+		EDC52AC721F03E560087888F /* CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC52AC621F03E560087888F /* CustomCellTableViewCell.swift */; };
+		EDC52ACA21F03EE80087888F /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC52AC921F03EE80087888F /* CustomTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,9 @@
 		EDC52A2B21EFC8A00087888F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDC52A2E21EFC8A00087888F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDC52A3021EFC8A00087888F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC52AC621F03E560087888F /* CustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewCell.swift; sourceTree = "<group>"; };
+		EDC52AC821F03EE80087888F /* CustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		EDC52AC921F03EE80087888F /* CustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,8 @@
 				EDC52A0921EFC3110087888F /* AppDelegate.m */,
 				EDC52A0B21EFC3110087888F /* ViewController.h */,
 				EDC52A0C21EFC3110087888F /* ViewController.m */,
+				EDC52AC821F03EE80087888F /* CustomTableViewCell.h */,
+				EDC52AC921F03EE80087888F /* CustomTableViewCell.m */,
 				EDC52A0E21EFC3110087888F /* Main.storyboard */,
 				EDC52A1121EFC3130087888F /* Assets.xcassets */,
 				EDC52A1321EFC3130087888F /* LaunchScreen.storyboard */,
@@ -97,6 +104,7 @@
 			children = (
 				EDC52A2421EFC89F0087888F /* AppDelegate.swift */,
 				EDC52A2621EFC89F0087888F /* ViewController.swift */,
+				EDC52AC621F03E560087888F /* CustomCellTableViewCell.swift */,
 				EDC52A2821EFC89F0087888F /* Main.storyboard */,
 				EDC52A2B21EFC8A00087888F /* Assets.xcassets */,
 				EDC52A2D21EFC8A00087888F /* LaunchScreen.storyboard */,
@@ -209,6 +217,7 @@
 			files = (
 				EDC52A0D21EFC3110087888F /* ViewController.m in Sources */,
 				EDC52A1821EFC3130087888F /* main.m in Sources */,
+				EDC52ACA21F03EE80087888F /* CustomTableViewCell.m in Sources */,
 				EDC52A0A21EFC3110087888F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +228,7 @@
 			files = (
 				EDC52A2721EFC89F0087888F /* ViewController.swift in Sources */,
 				EDC52A2521EFC89F0087888F /* AppDelegate.swift in Sources */,
+				EDC52AC721F03E560087888F /* CustomCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,9 +24,12 @@ class SwiftViewController: UIViewController, UITableViewDelegate, UITableViewDat
         let cell: UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "MyCell", for: indexPath)
         if indexPath.row % 2 == 0 {
             cell.backgroundColor = UIColor.gray
-        } else {
-         cell.backgroundColor = UIColor.white
         }
+        /*
+         else {
+         cell.backgroundColor = UIColor.white
+         }
+         */
         cell.textLabel?.text = tableData[indexPath.row] as? String
         return cell
     }
@@ -35,3 +38,4 @@ class SwiftViewController: UIViewController, UITableViewDelegate, UITableViewDat
         return tableData.count
     }
 }
+
