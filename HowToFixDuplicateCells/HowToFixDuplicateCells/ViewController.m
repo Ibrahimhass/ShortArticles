@@ -26,7 +26,7 @@
 
 - (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyCell" forIndexPath:indexPath];
-    if (indexPath.row % 2 == 0) {
+    if (indexPath.row % 2 == 1) {
         cell.backgroundColor = UIColor.grayColor;
     }
     /*

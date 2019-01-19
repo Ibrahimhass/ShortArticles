@@ -21,6 +21,7 @@
 }
 - (IBAction)generateRandomNumber:(UIButton *)sender {
     int randomNumber = arc4random() % 1337;
+    arc4random_uniform(1337);
     self.resultLabel.text = [[NSString alloc]initWithFormat:@"%d", randomNumber];
 }
 

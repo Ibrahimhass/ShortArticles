@@ -21,9 +21,8 @@ class SwiftViewController: UIViewController {
     //  Converted to Swift 4 by Swiftify v4.2.20418 - https://objectivec2swift.com/
     @IBAction func generateRandomNumber(_ sender: UIButton) {
         let newinSwift = Int.random(in: 0...1337)
-        print (newinSwift)
-        let randomNumber = Int(arc4random()) % 1337
-        resultLabel.text = "\(randomNumber)"
+//        let randomNumber = Int(arc4random()) % 1337
+        resultLabel.text = "\(newinSwift)"
     }
 
 

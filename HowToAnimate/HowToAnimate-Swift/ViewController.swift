@@ -13,7 +13,7 @@ class SwiftViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-    
+    //  Converted to Swift 4 by Swiftify v4.2.20418 - https://objectivec2swift.com/
     @IBAction func middleButtonTapped(_ sender: UIButton) {
         UIView.animate(withDuration: 0.5, animations: {
             sender.layer.cornerRadius = sender.frame.size.height / 2

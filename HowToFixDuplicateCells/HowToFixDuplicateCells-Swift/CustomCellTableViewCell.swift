@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//http://swiftify.me/8yrkp8
 class CustomCellTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
@@ -23,7 +23,7 @@ class CustomCellTableViewCell: UITableViewCell {
     
     override func prepareForReuse() {
         super.prepareForReuse()
-        self.backgroundColor = .white
+        self.backgroundColor = UIColor.white
     }
 
 }

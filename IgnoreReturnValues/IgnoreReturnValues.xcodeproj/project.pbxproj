@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EDC52A7A21EFCFF50087888F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC52A7921EFCFF50087888F /* AppDelegate.m */; };
-		EDC52A7D21EFCFF50087888F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC52A7C21EFCFF50087888F /* ViewController.m */; };
-		EDC52A8021EFCFF50087888F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC52A7E21EFCFF50087888F /* Main.storyboard */; };
-		EDC52A8221EFCFF60087888F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC52A8121EFCFF60087888F /* Assets.xcassets */; };
-		EDC52A8521EFCFF60087888F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC52A8321EFCFF60087888F /* LaunchScreen.storyboard */; };
-		EDC52A8821EFCFF60087888F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC52A8721EFCFF60087888F /* main.m */; };
 		EDC52A9521EFD0DD0087888F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC52A9421EFD0DD0087888F /* AppDelegate.swift */; };
 		EDC52A9721EFD0DD0087888F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC52A9621EFD0DD0087888F /* ViewController.swift */; };
 		EDC52A9A21EFD0DD0087888F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC52A9821EFD0DD0087888F /* Main.storyboard */; };
@@ -22,15 +16,6 @@
 
 /* Begin PBXFileReference section */
 		EDC52A7521EFCFF50087888F /* IgnoreReturnValues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IgnoreReturnValues.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDC52A7821EFCFF50087888F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EDC52A7921EFCFF50087888F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EDC52A7B21EFCFF50087888F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EDC52A7C21EFCFF50087888F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EDC52A7F21EFCFF50087888F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EDC52A8121EFCFF60087888F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EDC52A8421EFCFF60087888F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EDC52A8621EFCFF60087888F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDC52A8721EFCFF60087888F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDC52A9221EFD0DD0087888F /* IgnoreReturnValues-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IgnoreReturnValues-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC52A9421EFD0DD0087888F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDC52A9621EFD0DD0087888F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +46,6 @@
 		EDC52A6C21EFCFF50087888F = {
 			isa = PBXGroup;
 			children = (
-				EDC52A7721EFCFF50087888F /* IgnoreReturnValues */,
 				EDC52A9321EFD0DD0087888F /* IgnoreReturnValues-Swift */,
 				EDC52A7621EFCFF50087888F /* Products */,
 			);
@@ -74,22 +58,6 @@
 				EDC52A9221EFD0DD0087888F /* IgnoreReturnValues-Swift.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		EDC52A7721EFCFF50087888F /* IgnoreReturnValues */ = {
-			isa = PBXGroup;
-			children = (
-				EDC52A7821EFCFF50087888F /* AppDelegate.h */,
-				EDC52A7921EFCFF50087888F /* AppDelegate.m */,
-				EDC52A7B21EFCFF50087888F /* ViewController.h */,
-				EDC52A7C21EFCFF50087888F /* ViewController.m */,
-				EDC52A7E21EFCFF50087888F /* Main.storyboard */,
-				EDC52A8121EFCFF60087888F /* Assets.xcassets */,
-				EDC52A8321EFCFF60087888F /* LaunchScreen.storyboard */,
-				EDC52A8621EFCFF60087888F /* Info.plist */,
-				EDC52A8721EFCFF60087888F /* main.m */,
-			);
-			path = IgnoreReturnValues;
 			sourceTree = "<group>";
 		};
 		EDC52A9321EFD0DD0087888F /* IgnoreReturnValues-Swift */ = {
@@ -184,9 +152,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDC52A8521EFCFF60087888F /* LaunchScreen.storyboard in Resources */,
-				EDC52A8221EFCFF60087888F /* Assets.xcassets in Resources */,
-				EDC52A8021EFCFF50087888F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,9 +172,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDC52A7D21EFCFF50087888F /* ViewController.m in Sources */,
-				EDC52A8821EFCFF60087888F /* main.m in Sources */,
-				EDC52A7A21EFCFF50087888F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,22 +187,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EDC52A7E21EFCFF50087888F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EDC52A7F21EFCFF50087888F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EDC52A8321EFCFF60087888F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EDC52A8421EFCFF60087888F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		EDC52A9821EFD0DD0087888F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

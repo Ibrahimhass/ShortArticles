@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
+
 - (IBAction)middleButtonTapped:(UIButton *)sender {
     [UIView animateWithDuration:0.5 animations:^{
         sender.layer.cornerRadius = sender.frame.size.height / 2;
